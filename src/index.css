@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center{
+  text-align: center;
+}
+
+.card-pokemon{
+  max-width: 300px;
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.img-pokemon{
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: contain !important;
+  /* border-radius: 700px;
+  background-color: red; */
+
+}
+
+.name-pokemon{
+  text-transform: uppercase;
+  text-align: center;
+  
+}
